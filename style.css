@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+}
+html{
+    font-size: 17px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+    margin: 5% auto;
+    max-width: 70.588rem;
+    height: auto;
+    border: 4px solid #004d47;
+}
+h1, h2{
+    font-family: Andale Mono, monospace	;
+}
+
+a{
+    text-decoration: none;
+}
+/*//////Header///////*/
+
+header{
+    background: linear-gradient(90deg, #004d47, #b9c4c9);
+    border-bottom: 0.235rem solid #004d47;
+}
+
+.header_inner{
+    padding: 8.8rem 5.8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+header img{
+    border: 0.47rem solid #004d47;
+    border-radius: 50%;
+    width: 20.5rem;
+    height: 20.5rem; 
+}
+
+.header_content{
+    color: #004d47;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0 auto 2.9rem;
+}
+nav{
+    display: flex;
+    margin-top: -2.9rem;
+}
+nav a{
+    color: #004d47;
+    font-size: 1.3rem;
+    transition:  0.3s linear;
+    margin: 0 0.88rem 0;
+    padding: 0.58rem;
+    height: 1.47rem;
+    border: 0.235rem solid #004d47;
+}
+nav a:hover{
+    background-color: #b9c4c9;
+}
+.nav_about{
+    margin-top: 0.88rem;
+}
+.nav_skills{
+    margin-top: 3.52rem;
+}
+.nav_proj{
+    margin-top: 1.76rem;
+}
+.nav_contacts{
+    margin-top: 2.64rem;
+}
+h1{
+    margin-top: 7rem;
+    font-size: 4.7rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+header h2{
+    color: #004d47;
+    font-size: 3rem;
+    margin: 3rem 0 -5rem;
+}
+.name{
+    height: 4.1rem;
+    width: 5.88rem;
+    padding: 1.17rem;
+    border-top: 0.176rem solid #004d47;
+    border-left: 0.3529rem solid #004d47;
+}
+.surname{
+    padding: 1.17rem;
+    margin: 5.88rem 0 0 3.52rem;
+    border-bottom: 0.411rem solid #004d47;
+    border-right: 0.235rem solid #004d47;
+}
+/*////////////////////////////////////////////////*/
+/*//////////MAIN///////////////////////////*/
+main{
+    background-color: #b9c4c9;
+    color: #004d47;
+    display: flex;
+    line-height: 1.5;
+}
+.main_content{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+.main_right, .main_left{
+    padding: 4.7rem 4.7rem 4.7rem 1.17rem;
+    width: 50%;
+}
+.main_right{
+    background: linear-gradient(90deg, #b9c4c9, #52958b);
+}
+.main_section{
+    margin-bottom: 4.7rem;
+    padding-left: 7.058rem;
+}
+.main_section--right{
+    border-left: 0.1764rem solid #004d47;
+    padding: 4.7rem 0 4.7rem 6.47rem;
+}
+.project_title{
+    margin-bottom: 1.5rem;
+}
+.project_description{
+    margin-bottom: 1rem;
+}
+.main_section--right a{
+    color: #004d47;
+    font-size: 1rem;
+    transition:  0.3s linear;
+    padding: 0.4rem 1rem;
+    height: 1.47rem;
+    border: 0.15rem solid #004d47;
+}
+.main_section--right a:hover{
+    background-color: #b9c4c9;
+}
+.main_text{
+    padding-top: 1.17rem;
+}
+.code{
+    font-size: 0.9rem;
+    margin-top: 2.35rem;
+}
+
+/*/////////FOOTER///////////////*/
+
+footer{
+    border-top: 0.235rem solid #004d47;
+    background-color: #52958b;
+    color: #013632;
+}
+footer a{
+    transition: 0.3s linear;
+    color: #013632;
+}
+footer a:hover{
+    color: #b9c4c9;
+    padding-left: 0.294rem;
+}
+.footer_content{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+#contacts{
+    width: 50%;
+    padding: 4.7rem;
+}
+.footer_list{
+    margin-top: 1.17rem ;
+    line-height: 2;
+}
+footer  img{
+    width: 14.7rem;
+    height: 11.764rem;
+}
+.copy{
+    text-align: center;
+    padding-bottom: 0.588rem;
+}
+/*///////////////////////////////////////////*/
+/*//////MEDIA////////*/
+@media (max-width: 1920px){
+    html{
+        font-size: 24px;
+    }
+@media (max-width: 1600px){
+        html{
+            font-size: 20px;
+        }
+    
+@media (max-width: 1440px){
+        html{
+            font-size: 17px;
+        }
+    
+@media (max-width: 1280px){
+    html{
+        font-size: 14px;
+    }
+}
+@media (max-width: 1024px){
+    html{
+        font-size: 11px;   
+    }
+    body{
+        border: 3px solid #004d47;
+    }
+}
+@media (max-width: 768px){
+    html{
+        font-size: 9px;   
+    }
+    body{
+        border: 2px solid #004d47;
+    }
+}
+@media (max-width: 600px){
+    html{
+        font-size: 7px;   
+    }
+}
+@media (max-width: 480px){
+    html{
+        font-size: 5px;   
+    }
+    ul{
+        padding-left: 5rem;
+    }
+    ol{
+     padding-left: 3rem;
+    }
+}
+@media (max-width: 320px){
+    html{
+        font-size: 3.5px;
+    }
+    ul{
+        padding-left: 5rem;
+    }
+    ol{
+     padding-left: 3rem;
+    }
+}
